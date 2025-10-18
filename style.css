@@ -1,0 +1,68 @@
+.logo{
+    width: 120px;
+    margin:0 auto 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 40px;
+}
+form{
+    border: 1px solid #1212b0;
+    padding: 20px 40px;
+    width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+h2{
+    color: #01886b;
+    margin-bottom: 5px;
+}
+h3 {
+    color: #01886b;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 220px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    padding: 5px 15px;
+    font-size: 15px ;
+    background-color: #c2c3c3;
+    color: white ;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c19c9c;
+}
+
+.small-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

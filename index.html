@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+    <img src="logo.png" alt ="IU Logo" class="logo">
+
+    <h2>Survey</h2>
+    <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+
+    <h3>Your information:</h3>
+    <div class="section">
+        <label>First Name</label>
+        <input type="text" name="firstname"><br>
+        <label>Last Name</label>
+        <input type="text" name="lastname"><br>
+        <label>Email</label>
+        <input type="email" name="email"><br>
+        <label>Date of Birth</label>
+        <input type="date" name="dob">
+    </div>
+
+    <h3>How did you hear about us?</h3>
+    <div class="radio-group">
+        <input type="radio" name="source" value="search"> Search engine
+        <input type="radio" name="source" value="word"> Word of mouth
+        <input type="radio" name="source" value="social"> Social Media
+        <input type="radio" name="source" value="other"> Other
+    </div>
+
+    <h3>Would you like to receive announcements about new CDs and special offers?</h3>
+    <div class="checkbox-group">
+        <input type="checkbox" name="announcement1"> YES, I'd like that.<br>
+        <input type="checkbox" name="announcement2"> YES, please send me email announcements.
+    </div>
+
+    <p class="small-text">Please contact me by:</p>
+    <select name="contact">
+        <option>Email or postal mail</option>
+        <option>Email only</option>
+        <option>Postal mail only</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
